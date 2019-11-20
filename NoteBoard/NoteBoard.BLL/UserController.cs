@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NoteBoard.BLL
 {
-    class UserController
+    public class UserController
     {
         UserDAL _userDAL;
         public UserController()
@@ -74,7 +74,8 @@ namespace NoteBoard.BLL
         public User GetByLogin(string username,string password)
         {
             List<User> users = _userDAL.GetAll();
-            User user = users.Where(a => a.IsActive && a.UserName == username).Single();
+            User user = users.Where(a => a.IsActive && a.UserName == username).SingleOrDefault();
+            //burası single olabilir mi?
             if(user != null)
             {
                 Password pass = user.Passwords.Where(a => a.IsActive && a.PasswordText == password).Single();

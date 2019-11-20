@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.DAL", "NoteBoard.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.BLL", "NoteBoard.BLL\NoteBoard.BLL.csproj", "{DAA55848-46A3-4B80-A709-90439AFA6795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBoard.UI.Winform", "NoteBoard.UI.Winform\NoteBoard.UI.Winform.csproj", "{11536B14-6B6D-4B25-BCBA-5F16BF5AEE9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DAA55848-46A3-4B80-A709-90439AFA6795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAA55848-46A3-4B80-A709-90439AFA6795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAA55848-46A3-4B80-A709-90439AFA6795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11536B14-6B6D-4B25-BCBA-5F16BF5AEE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11536B14-6B6D-4B25-BCBA-5F16BF5AEE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11536B14-6B6D-4B25-BCBA-5F16BF5AEE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11536B14-6B6D-4B25-BCBA-5F16BF5AEE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
