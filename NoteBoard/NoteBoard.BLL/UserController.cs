@@ -78,7 +78,7 @@ namespace NoteBoard.BLL
             //burası single olabilir mi?
             if(user != null)
             {
-                Password pass = user.Passwords.Where(a => a.IsActive && a.PasswordText == password).Single();
+                Password pass = user.Passwords.Where(a => a.IsActive && a.PasswordText == password).FirstOrDefault();
                 if (pass == null)
                 {
                     return null;
